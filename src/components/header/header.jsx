@@ -9,8 +9,6 @@ const Header = () => {
     const [data, setData] = useState([]);
 
     const handleCreate = () => {
-        if (!title.trim() || !job.trim() || !age.trim()) return;
-
         const user = {
             title,
             job,
