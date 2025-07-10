@@ -25,7 +25,7 @@ const Header = () => {
     return (
         <div>
             <form className="formContainer" onSubmit={(e) => e.preventDefault()}>
-                <h2 className="text-center">User</h2>
+                <h2 className="text-center">User Information</h2>
                 <input type="text" value={title} onChange={(e) => setTitle(e.target.value)} className="input" placeholder="Name" required />
                 <input type="text" value={job} onChange={(e) => setJob(e.target.value)} className="input" placeholder="Profession" required/>
                 <input type="number" value={age} onChange={(e) => setAge(e.target.value)} className="input" placeholder="Age" required/>
